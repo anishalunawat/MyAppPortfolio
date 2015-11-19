@@ -13,95 +13,53 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:padding="16dp"
         android:text="My Nanodegree Apps!"
-        android:textSize="25sp"
-        android:textColor="@color/colorPrimary"
-        android:padding="16dp"/>
+        android:textColor="@color/my_black"
+        android:textSize="25sp" />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_gravity="center">
+        android:layout_gravity="center"
+        android:orientation="vertical">
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="@string/Spotify_Streamer"
-            android:layout_marginTop="8dp"
-            android:paddingTop="4dp"
-            android:paddingBottom="4dp"
-            android:paddingLeft="8dp"
-            android:paddingRight="8dp"
-            android:onClick="spotifyStramer"
-            android:background="@color/my_udacious"/>
+            style="@style/BasicStyle"
+            android:background="@color/my_udacious"
+            android:onClick="spotifyStreamer"
+            android:text="@string/Spotify_Streamer" />
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="@string/Scores_App"
-            android:layout_marginTop="16dp"
-            android:paddingTop="4dp"
-            android:paddingBottom="4dp"
-            android:paddingLeft="8dp"
-            android:paddingRight="8dp"
+            style="@style/BasicStyle"
+            android:background="@color/my_udacious"
             android:onClick="scoresApp"
-            android:background="@color/my_udacious"/>
+            android:text="@string/Scores_App" />
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="@string/Library_App"
-            android:layout_marginTop="16dp"
-            android:paddingTop="4dp"
-            android:paddingBottom="4dp"
-            android:paddingLeft="8dp"
-            android:paddingRight="8dp"
+            style="@style/BasicStyle"
+            android:background="@color/my_udacious"
             android:onClick="libraryApp"
-            android:background="@color/my_udacious"/>
+            android:text="@string/Library_App" />
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="@string/Build_It_Bigger"
-            android:paddingTop="4dp"
-            android:paddingBottom="4dp"
-            android:paddingLeft="8dp"
-            android:paddingRight="8dp"
-            android:layout_marginTop="16dp"
+            style="@style/BasicStyle"
+            android:background="@color/my_udacious"
             android:onClick="buildItBigger"
-            android:background="@color/my_udacious"/>
+            android:text="@string/Build_It_Bigger" />
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="@string/XYZ_Reader"
-            android:layout_marginTop="16dp"
-            android:paddingTop="4dp"
-            android:paddingBottom="4dp"
-            android:paddingLeft="8dp"
-            android:paddingRight="8dp"
+            style="@style/BasicStyle"
+            android:background="@color/my_udacious"
             android:onClick="xyzReader"
-            android:background="@color/my_udacious"/>
+            android:text="@string/XYZ_Reader" />
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="@string/Capstone"
-            android:layout_marginTop="16dp"
-            android:paddingTop="4dp"
-            android:paddingBottom="4dp"
-            android:paddingLeft="8dp"
-            android:paddingRight="8dp"
+            style="@style/BasicStyle"
+            android:background="@color/my_udacious_pink"
             android:onClick="capstone"
-            android:textColor="@color/my_white"
-            android:background="@color/my_udacious_pink"/>
+            android:text="@string/Capstone"
+            android:textColor="@color/my_white" />
 
     </LinearLayout>
 </LinearLayout>

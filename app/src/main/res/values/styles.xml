@@ -16,5 +16,17 @@
     <color name="my_white">#ffffff</color>
     <color name="my_udacious">#F08C35</color>
     <color name="my_udacious_pink">#c2185b</color>
+    <color name="my_black">#000000</color>
 
+    <style name="BasicStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+
+    </style>
 </resources>

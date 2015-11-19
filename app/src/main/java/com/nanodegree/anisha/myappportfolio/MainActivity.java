@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
     }
 
-    public void spotifyStramer(View view)
+    public void spotifyStreamer(View view)
     {
         Toast.makeText(getApplicationContext(),"This button will launch my Spotify Streamer App!",Toast.LENGTH_SHORT).show();
     }
