@@ -26,31 +26,26 @@
 
         <Button
             style="@style/BasicStyle"
-            android:background="@color/my_udacious"
             android:onClick="spotifyStreamer"
             android:text="@string/Spotify_Streamer" />
 
         <Button
             style="@style/BasicStyle"
-            android:background="@color/my_udacious"
             android:onClick="scoresApp"
             android:text="@string/Scores_App" />
 
         <Button
             style="@style/BasicStyle"
-            android:background="@color/my_udacious"
             android:onClick="libraryApp"
             android:text="@string/Library_App" />
 
         <Button
             style="@style/BasicStyle"
-            android:background="@color/my_udacious"
             android:onClick="buildItBigger"
             android:text="@string/Build_It_Bigger" />
 
         <Button
             style="@style/BasicStyle"
-            android:background="@color/my_udacious"
             android:onClick="xyzReader"
             android:text="@string/XYZ_Reader" />
 
